@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    padding-top: 50px; /* For fixed navbar */
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar a.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #495057;
+  }
+  
+  /* Main Content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  /* Workout Box */
+  .workout-box {
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .workout-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .workout-box h5 {
+    font-size: 1.6rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .workout-box p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6f61;
+    margin-bottom: 20px;
+  }
+  
+  .timer-controls button {
+    font-size: 1rem;
+    padding: 8px 15px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .timer-controls button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .timer-controls button:focus {
+    outline: none;
+  }
+  
+  /* Button Colors */
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  /* Links in Navbar */
+  .navbar-nav .nav-item .nav-link.active {
+    background-color: #495057;
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .workout-box {
+      padding: 15px;
+    }
+    
+    .navbar-nav .nav-link {
+      font-size: 1rem;
+    }
+    
+    .workout-box h5 {
+      font-size: 1.4rem;
+    }
+  }
+  
+  
